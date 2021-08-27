@@ -1141,7 +1141,7 @@ Luego realice las acciones necesarias para que la advertencia desaparezca. Inten
 
 **¡Asegúrate de que a partir de ahora no veas ninguna advertencia en tu consola!**
 
-<h4>1.12*: anécdotes, paso 1</h4>
+<h4>1.12*: anécdotas, paso 1</h4>
 
 El mundo de la ingeniería de software está lleno con [anécdotas](http://www.comp.nus.edu.sg/~damithch/pages/SE-quotes.htm) que destilan verdades atemporales de nuestro campo en breves frases.
 
@@ -1156,12 +1156,12 @@ const App = (props) => {
 
   return (
     <div>
-      {props.anecdotes[selected]}
+      {props.anecdotas[selected]}
     </div>
   )
 }
 
-const anecdotes = [
+const anecdotas = [
   'If it hurts, do it more often',
   'Adding manpower to a late software project makes it later!',
   'The first 90 percent of the code accounts for the first 90 percent of the development time...The remaining 10 percent of the code accounts for the other 90 percent of the development time.',
@@ -1171,7 +1171,7 @@ const anecdotes = [
 ]
 
 ReactDOM.render(
-  <App anecdotes={anecdotes} />,
+  <App anecdotas={anecdotas} />,
   document.getElementById('root')
 )
 ```
@@ -1184,7 +1184,7 @@ Su aplicación finalizada podría verse así
 
 **ADVERTENCIA** create-react-app convertirá automáticamente su proyecto en un repositorio git a menos que cree su aplicación dentro de un repositorio git existente. **Lo más probable es que no desee que cada uno de sus proyectos sea un repositorio separado**, así que simplemente ejecute el comando _rm -rf .git_ en la raíz de su aplicación.
 
-<h4>1.13*: anecdotes, paso 2</h4>
+<h4>1.13*: anecdotas, paso 2</h4>
 
 Expande tu aplicación para que puedas votar por la anécdota mostrada.
 
@@ -1213,7 +1213,7 @@ copy[2] += 1
 ```
 El uso de una matriz podría ser la opción más sencilla en este caso. Buscar en Google te proporcionará muchos consejos sobre cómo crear una matriz llena de ceros de la longitud deseada, como [esto](https://stackoverflow.com/questions/20222501/how-to-create-a-zero-filled-javascript-array-of-arbitrary-length/22209781).
 
-<h4>1,14*: anecdotes, paso 3</h4>
+<h4>1,14*: anecdotas, paso 3</h4>
 
 Ahora implemente la versión final de la aplicación que muestra la anécdota con el mayor número de votos 
 
